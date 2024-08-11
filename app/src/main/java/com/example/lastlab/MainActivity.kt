@@ -20,12 +20,16 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-        Log.i("mohamed","Hello,Mohamed")
-
+        boody()
         ahmed()
         mostafa()
+        Log.i("mohamed","Hello,Mohamed")
+
     }
+    
+    fun islam(){
+    }
+    
     fun mostafa()
     {
         Toast.makeText(this, "My name is mostafa", Toast.LENGTH_SHORT).show()
@@ -35,6 +39,7 @@ class MainActivity : AppCompatActivity() {
     }
     private fun ahmed() {
         Log.d(LOG_TAG, "Ahmed commit")
+
     }
     fun mohamed(){
         Log.d(LOG_TAG,"mohamed")
