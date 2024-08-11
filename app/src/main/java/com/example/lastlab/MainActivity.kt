@@ -41,4 +41,7 @@ class MainActivity : AppCompatActivity() {
         Log.d(LOG_TAG, "Ahmed commit")
 
     }
+    fun mohamed(){
+        Log.d(LOG_TAG,"mohamed")
+    }
 }
