@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+        Log.i("mohamed","Hello,Mohamed")
+
         ahmed()
         mostafa()
     }
