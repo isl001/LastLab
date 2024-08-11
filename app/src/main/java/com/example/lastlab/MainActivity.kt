@@ -1,6 +1,7 @@
 package com.example.lastlab
 
 import android.os.Bundle
+import android.widget.Toast
 import android.util.Log
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -19,9 +20,20 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
         Log.i("mohamed","Hello,Mohamed")
+
+        ahmed()
+        mostafa()
+    }
+    fun mostafa()
+    {
+        Toast.makeText(this, "My name is mostafa", Toast.LENGTH_SHORT).show()
     }
     fun boody() {
         Log.d(LOG_TAG, "boody commit")
+    }
+    private fun ahmed() {
+        Log.d(LOG_TAG, "Ahmed commit")
     }
 }
