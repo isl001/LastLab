@@ -28,6 +28,8 @@ class MainActivity : AppCompatActivity() {
     }
     
     fun islam(){
+        Log.d(LOG_TAG, "Islam commit")
+
     }
     
     fun mostafa()
