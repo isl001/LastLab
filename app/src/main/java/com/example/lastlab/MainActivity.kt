@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        ahmed()
         mostafa()
     }
     fun mostafa()
@@ -28,5 +30,8 @@ class MainActivity : AppCompatActivity() {
     }
     fun boody() {
         Log.d(LOG_TAG, "boody commit")
+    }
+    private fun ahmed() {
+        Log.d(LOG_TAG, "Ahmed commit")
     }
 }
